@@ -1,81 +1,81 @@
-# TranSender
+# Contexto
 
-![diagram](https://www.plantuml.com/plantuml/svg/0/TLDDRzim3Bq7o7_WV4g1Dhxij5EpB6iBfAknE1Xs2bXPIpN8eYVAMRT_C-pG7v8_DifVIThrP8bwV7oFf2yve0zrQI7tw5YxGllnw8rnojQ5XeSGAdwNfXv_JhScFDJtDMklo0NjmbHHcMBX3RgThQiwdR-zo2owiBvTfXQ3vY2XpJoY7yEqaYhZqNYqd7szM-URBpVvzMQvk5fy-Z0vY_5CUoOtKTO8jpw7PDwU4ZdUGHS69ckK2GYAl3S5CZW2h2I8mUmeEHk8AYy2i20l-Lb_1Z4b3dPc_qGjyG03KIpsWNX0y52k83wYng8qpd3m7Vti-DxGCfnWDCDMU-sKmH88MEAwnAJnlVeLBvCk9ibn4gjc4f5AIfOcDBAw7XnKULqUj9v7oE16KAsVY6coNnCaW2YabR5PF8R9FJf5Klfz_1vh-54B4rIunLA44CJs3tDW_HtXcpQ1dj6LM8cuv8feQpNSoYroVYJljDA0O4cXDRzn_xJ_In23pFi_ibPIoUFfF7f_tFRkixQ7XJbqSCrDR-FhqHRyz_tPA5zW-Yh3G-Tc7KpKBF9dsKtSAebZO-mwpxDLJp-azJrzaJTqypHvFBgKwJM_p3y0)
+![diagrama](https://www.plantuml.com/plantuml/svg/0/TLDDRzim3Bq7o7_WV4g1Dhxij5EpB6iBfAknE1Xs2bXPIpN8eYVAMRT_C-pG7v8_DifVIThrP8bwV7oFf2yve0zrQI7tw5YxGllnw8rnojQ5XeSGAdwNfXv_JhScFDJtDMklo0NjmbHHcMBX3RgThQiwdR-zo2owiBvTfXQ3vY2XpJoY7yEqaYhZqNYqd7szM-URBpVvzMQvk5fy-Z0vY_5CUoOtKTO8jpw7PDwU4ZdUGHS69ckK2GYAl3S5CZW2h2I8mUmeEHk8AYy2i20l-Lb_1Z4b3dPc_qGjyG03KIpsWNX0y52k83wYng8qpd3m7Vti-DxGCfnWDCDMU-sKmH88MEAwnAJnlVeLBvCk9ibn4gjc4f5AIfOcDBAw7XnKULqUj9v7oE16KAsVY6coNnCaW2YabR5PF8R9FJf5Klfz_1vh-54B4rIunLA44CJs3tDW_HtXcpQ1dj6LM8cuv8feQpNSoYroVYJljDA0O4cXDRzn_xJ_In23pFi_ibPIoUFfF7f_tFRkixQ7XJbqSCrDR-FhqHRyz_tPA5zW-Yh3G-Tc7KpKBF9dsKtSAebZO-mwpxDLJp-azJrzaJTqypHvFBgKwJM_p3y0)
 
-**Level 1: System Context diagram**
+**Nível 1: Diagrama de Contexto do Sistema**
 
-A System Context diagram is a good starting point for diagramming and documenting a software system, allowing you to step back and see the big picture. Draw a diagram showing your system as a box in the centre, surrounded by its users and the other systems that it interacts with.
+Um Diagrama de Contexto do Sistema é um bom ponto de partida para diagramar e documentar um sistema de software, permitindo que você dê um passo para trás e veja o quadro geral. Desenhe um diagrama mostrando seu sistema como uma caixa no centro, cercada por seus usuários e pelos outros sistemas com os quais interage.
 
-Detail isn't important here as this is your zoomed out view showing a big picture of the system landscape. The focus should be on people (actors, roles, personas, etc) and software systems rather than technologies, protocols and other low-level details. It's the sort of diagram that you could show to non-technical people.
+Detalhes não são importantes aqui, pois esta é a sua visão ampla mostrando uma imagem geral do panorama do sistema. O foco deve estar nas pessoas (atores, funções, personas, etc.) e nos sistemas de software, em vez de tecnologias, protocolos e outros detalhes de baixo nível. É o tipo de diagrama que você poderia mostrar a pessoas não técnicas.
 
-**Scope**: A single software system.
+**Escopo**: Um único sistema de software
 
-**Primary elements**: The software system in scope.
-Supporting elements: People (e.g. users, actors, roles, or personas) and software systems (external dependencies) that are directly connected to the software system in scope. Typically these other software systems sit outside the scope or boundary of your own software system, and you don’t have responsibility or ownership of them.
+**Elementos principais**: O sistema de software em questão.
+Elementos de suporte: Pessoas (por exemplo, usuários, atores, funções ou personas) e sistemas de software (dependências externas) diretamente conectados ao sistema de software em questão. Normalmente, esses outros sistemas de software ficam fora do escopo ou limite do seu próprio sistema de software, e você não tem responsabilidade ou propriedade sobre eles.
 
-**Intended audience**: Everybody, both technical and non-technical people, inside and outside of the software development team.
+**Público-alvo**: Todos, tanto pessoas técnicas quanto não técnicas, dentro e fora da equipe de desenvolvimento de software.
 
-# TranSender
+# Contexto
 
-# Introduction
+# Introdução
 
-This project was created using [c4builder](https://adrianvlupu.github.io/C4-Builder/)
+Esse projeto foi criado usando [c4builder](https://adrianvlupu.github.io/C4-Builder/)
 
-Take a look at 
+Dê uma olhada em 
 
-- [PlantUml](http://plantuml.com/) creates diagrams from plain text.
+- [PlantUml](http://plantuml.com/) cria diagramas a partir de texto simples.
 
-- [Markdown](https://guides.github.com/features/mastering-markdown/) creates rich text documents from plant text.
+- [Markdown](https://guides.github.com/features/mastering-markdown/) cria documentos de texto enriquecido a partir de texto simples.
 
-- [C4Model](https://c4model.com/) the idea behind maps of your code
+- [C4Model](https://c4model.com/) a ideia por trás dos mapas do seu código
 
-- [C4-PlantUML](https://github.com/RicardoNiepel/C4-PlantUML) C4 syntax support for generating plantuml diagrams
+- [C4-PlantUML](https://github.com/RicardoNiepel/C4-PlantUML) suporte à sintaxe C4 para gerar diagramas PlantUML
 
-- [vscode-plantuml](https://github.com/qjebbs/vscode-plantuml) plugin for visual studio code to view diagrams at design time
+- [vscode-plantuml](https://github.com/qjebbs/vscode-plantuml) plugin para o Visual Studio Code para visualizar diagramas durante o design
 
-Open the terminal and run the following commands to start compiling the documentation
+Abra o terminal e execute os seguintes comandos para começar a compilar a documentação
 
 ```bash
 npm i -g c4builder
 c4builder
 ```
 
-> Note on using local images inside markdown files
+> Observação sobre o uso de imagens locais dentro de arquivos markdown
 >
-> Images should be placed next to the markdown file using them.
+> As imagens devem ser colocadas ao lado do arquivo markdown que as utiliza.
 >
-> All of them will be copied over to the `docs` folder either in `/` (in the case of a single MD/PDF file) or following the same folder structure as in `src`, so make sure they have unique names.  
+> Todas elas serão copiadas para a pasta docs, seja em / (no caso de um único arquivo MD/PDF) ou seguindo a mesma estrutura de pasta que em src, portanto, certifique-se de que elas tenham nomes únicos. 
 
-# Abstractions used
+# Abstrações usadas
 
 ![C4Model](https://c4model.com/img/abstractions.png)
 
-### Person
+### Pessoa
 
-However you think about your users (as actors, roles, personas, etc), people are the various human users of your software system. 
+Independentemente de como você pensa sobre seus usuários (como atores, funções, personas, etc.), as pessoas são os vários usuários humanos do seu sistema de software.
 
-### Software System
+### Sistema de Software
 
-A software system is the highest level of abstraction and describes something that delivers value to its users, whether they are human or not. This includes the software system you are modelling, and the other software systems upon which your software system depends (or vice versa). 
+Um sistema de software é o mais alto nível de abstração e descreve algo que entrega valor aos seus usuários, sejam eles humanos ou não. Isso inclui o sistema de software que você está modelando e os outros sistemas de software nos quais seu sistema de software depende (ou vice-versa).
 
-### Container
+### Contêiner
 
-A container represents something that hosts code or data. A container is something that needs to be running in order for the overall software system to work. In real terms, a container is something like: 
+Um contêiner representa algo que hospeda código ou dados. Um contêiner é algo que precisa estar em execução para que o sistema de software como um todo funcione. Em termos reais, um contêiner é algo como: 
 
-- Server-side web application: A Java EE web application running on Apache Tomcat, an ASP.NET MVC application running on Microsoft IIS, a Ruby on Rails application running on WEBrick, a Node.js application, etc.
+- Aplicação web no servidor: uma aplicação web Java EE em execução no Apache Tomcat, uma aplicação ASP.NET MVC em execução no Microsoft IIS, uma aplicação Ruby on Rails em execução no WEBrick, uma aplicação Node.js, etc.
 
-- Client-side web application: A JavaScript application running in a web browser using Angular, Backbone.JS, jQuery, etc).
+- Aplicação web do lado do cliente: uma aplicação JavaScript em execução em um navegador da web usando Angular, Backbone.JS, jQuery, etc.
 
-- Client-side desktop application: A Windows desktop application written using WPF, an OS X desktop application written using Objective-C, a cross-platform desktop application written using JavaFX, etc.
-- Mobile app: An Apple iOS app, an Android app, a Microsoft Windows Phone app, etc.
+- Aplicação de desktop do lado do cliente: uma aplicação de desktop Windows escrita usando WPF, uma aplicação de desktop OS X escrita usando Objective-C, uma aplicação de desktop multiplataforma escrita usando JavaFX, etc.
+- Aplicativo móvel: um aplicativo iOS da Apple, um aplicativo Android, um aplicativo Windows Phone da Microsoft, etc.
 
-- Server-side console application: A standalone (e.g. "public static void main") 
+- Aplicação de console do lado do servidor: uma aplicação independente (por exemplo, "public static void main")
 
 - etc
 
-### Component
+### Componente
 
-Component
-The word "component" is a hugely overloaded term in the software development industry, but in this context a component is simply a grouping of related functionality encapsulated behind a well-defined interface. If you're using a language like Java or C#, the simplest way to think of a component is that it's a collection of implementation classes behind an interface. Aspects such as how those components are packaged (e.g. one component vs many components per JAR file, DLL, shared library, etc) is a separate and orthogonal concern. 
+Componente
+A palavra "componente" é um termo extremamente sobrecarregado na indústria de desenvolvimento de software, mas, neste contexto, um componente é simplesmente um agrupamento de funcionalidades relacionadas encapsuladas por uma interface bem definida. Se você está usando uma linguagem como Java ou C#, a maneira mais simples de pensar em um componente é que ele é uma coleção de classes de implementação por trás de uma interface. Aspectos como como esses componentes são empacotados (por exemplo, um componente vs muitos componentes por arquivo JAR, DLL, biblioteca compartilhada, etc.) são uma preocupação separada e ortogonal.
 
-An important point to note here is that all components inside a container typically execute in the same process space. 
+Um ponto importante a ser observado aqui é que todos os componentes dentro de um contêiner geralmente são executados no mesmo espaço de processo. 
